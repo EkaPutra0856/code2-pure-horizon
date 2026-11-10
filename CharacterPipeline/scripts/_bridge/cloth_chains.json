@@ -1,0 +1,291 @@
+{
+ "Skirt00": {
+  "bones": [
+   "J_Sec_Cloth_Skirt00_01",
+   "J_Sec_Cloth_Skirt00_02",
+   "J_Sec_Cloth_Skirt00_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt01": {
+  "bones": [
+   "J_Sec_Cloth_Skirt01_01",
+   "J_Sec_Cloth_Skirt01_02",
+   "J_Sec_Cloth_Skirt01_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt02": {
+  "bones": [
+   "J_Sec_Cloth_Skirt02_01",
+   "J_Sec_Cloth_Skirt02_02",
+   "J_Sec_Cloth_Skirt02_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt03": {
+  "bones": [
+   "J_Sec_Cloth_Skirt03_01",
+   "J_Sec_Cloth_Skirt03_02",
+   "J_Sec_Cloth_Skirt03_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt04": {
+  "bones": [
+   "J_Sec_Cloth_Skirt04_01",
+   "J_Sec_Cloth_Skirt04_02",
+   "J_Sec_Cloth_Skirt04_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt05": {
+  "bones": [
+   "J_Sec_Cloth_Skirt05_01",
+   "J_Sec_Cloth_Skirt05_02",
+   "J_Sec_Cloth_Skirt05_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt06": {
+  "bones": [
+   "J_Sec_Cloth_Skirt06_01",
+   "J_Sec_Cloth_Skirt06_02",
+   "J_Sec_Cloth_Skirt06_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt07": {
+  "bones": [
+   "J_Sec_Cloth_Skirt07_01",
+   "J_Sec_Cloth_Skirt07_02",
+   "J_Sec_Cloth_Skirt07_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt08": {
+  "bones": [
+   "J_Sec_Cloth_Skirt08_01",
+   "J_Sec_Cloth_Skirt08_02",
+   "J_Sec_Cloth_Skirt08_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt09": {
+  "bones": [
+   "J_Sec_Cloth_Skirt09_01",
+   "J_Sec_Cloth_Skirt09_02",
+   "J_Sec_Cloth_Skirt09_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt10": {
+  "bones": [
+   "J_Sec_Cloth_Skirt10_01",
+   "J_Sec_Cloth_Skirt10_02",
+   "J_Sec_Cloth_Skirt10_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Skirt11": {
+  "bones": [
+   "J_Sec_Cloth_Skirt11_01",
+   "J_Sec_Cloth_Skirt11_02",
+   "J_Sec_Cloth_Skirt11_03"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalL45": {
+  "bones": [
+   "J_Sec_Cloth_PetalL45_01",
+   "J_Sec_Cloth_PetalL45_02",
+   "J_Sec_Cloth_PetalL45_03",
+   "J_Sec_Cloth_PetalL45_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalR45": {
+  "bones": [
+   "J_Sec_Cloth_PetalR45_01",
+   "J_Sec_Cloth_PetalR45_02",
+   "J_Sec_Cloth_PetalR45_03",
+   "J_Sec_Cloth_PetalR45_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalL80": {
+  "bones": [
+   "J_Sec_Cloth_PetalL80_01",
+   "J_Sec_Cloth_PetalL80_02",
+   "J_Sec_Cloth_PetalL80_03",
+   "J_Sec_Cloth_PetalL80_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalR80": {
+  "bones": [
+   "J_Sec_Cloth_PetalR80_01",
+   "J_Sec_Cloth_PetalR80_02",
+   "J_Sec_Cloth_PetalR80_03",
+   "J_Sec_Cloth_PetalR80_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalL115": {
+  "bones": [
+   "J_Sec_Cloth_PetalL115_01",
+   "J_Sec_Cloth_PetalL115_02",
+   "J_Sec_Cloth_PetalL115_03",
+   "J_Sec_Cloth_PetalL115_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalR115": {
+  "bones": [
+   "J_Sec_Cloth_PetalR115_01",
+   "J_Sec_Cloth_PetalR115_02",
+   "J_Sec_Cloth_PetalR115_03",
+   "J_Sec_Cloth_PetalR115_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalL150": {
+  "bones": [
+   "J_Sec_Cloth_PetalL150_01",
+   "J_Sec_Cloth_PetalL150_02",
+   "J_Sec_Cloth_PetalL150_03",
+   "J_Sec_Cloth_PetalL150_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalR150": {
+  "bones": [
+   "J_Sec_Cloth_PetalR150_01",
+   "J_Sec_Cloth_PetalR150_02",
+   "J_Sec_Cloth_PetalR150_03",
+   "J_Sec_Cloth_PetalR150_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "PetalBack": {
+  "bones": [
+   "J_Sec_Cloth_PetalBack_01",
+   "J_Sec_Cloth_PetalBack_02",
+   "J_Sec_Cloth_PetalBack_03",
+   "J_Sec_Cloth_PetalBack_04"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Leaf0": {
+  "bones": [
+   "J_Sec_Cloth_Leaf0_01",
+   "J_Sec_Cloth_Leaf0_02"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Leaf1": {
+  "bones": [
+   "J_Sec_Cloth_Leaf1_01",
+   "J_Sec_Cloth_Leaf1_02"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Leaf2": {
+  "bones": [
+   "J_Sec_Cloth_Leaf2_01",
+   "J_Sec_Cloth_Leaf2_02"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Leaf3": {
+  "bones": [
+   "J_Sec_Cloth_Leaf3_01",
+   "J_Sec_Cloth_Leaf3_02"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Pouch": {
+  "bones": [
+   "J_Sec_Cloth_Pouch_01",
+   "J_Sec_Cloth_Pouch_02"
+  ],
+  "parent": "J_Bip_C_Hips"
+ },
+ "Cape0": {
+  "bones": [
+   "J_Sec_Cloth_Cape0_01",
+   "J_Sec_Cloth_Cape0_02",
+   "J_Sec_Cloth_Cape0_03",
+   "J_Sec_Cloth_Cape0_04",
+   "J_Sec_Cloth_Cape0_05",
+   "J_Sec_Cloth_Cape0_06"
+  ],
+  "parent": "J_Bip_C_UpperChest"
+ },
+ "Cape1": {
+  "bones": [
+   "J_Sec_Cloth_Cape1_01",
+   "J_Sec_Cloth_Cape1_02",
+   "J_Sec_Cloth_Cape1_03",
+   "J_Sec_Cloth_Cape1_04",
+   "J_Sec_Cloth_Cape1_05",
+   "J_Sec_Cloth_Cape1_06"
+  ],
+  "parent": "J_Bip_C_UpperChest"
+ },
+ "Cape2": {
+  "bones": [
+   "J_Sec_Cloth_Cape2_01",
+   "J_Sec_Cloth_Cape2_02",
+   "J_Sec_Cloth_Cape2_03",
+   "J_Sec_Cloth_Cape2_04",
+   "J_Sec_Cloth_Cape2_05",
+   "J_Sec_Cloth_Cape2_06"
+  ],
+  "parent": "J_Bip_C_UpperChest"
+ },
+ "Cape3": {
+  "bones": [
+   "J_Sec_Cloth_Cape3_01",
+   "J_Sec_Cloth_Cape3_02",
+   "J_Sec_Cloth_Cape3_03",
+   "J_Sec_Cloth_Cape3_04",
+   "J_Sec_Cloth_Cape3_05",
+   "J_Sec_Cloth_Cape3_06"
+  ],
+  "parent": "J_Bip_C_UpperChest"
+ },
+ "Cape4": {
+  "bones": [
+   "J_Sec_Cloth_Cape4_01",
+   "J_Sec_Cloth_Cape4_02",
+   "J_Sec_Cloth_Cape4_03",
+   "J_Sec_Cloth_Cape4_04",
+   "J_Sec_Cloth_Cape4_05",
+   "J_Sec_Cloth_Cape4_06"
+  ],
+  "parent": "J_Bip_C_UpperChest"
+ },
+ "Cape5": {
+  "bones": [
+   "J_Sec_Cloth_Cape5_01",
+   "J_Sec_Cloth_Cape5_02",
+   "J_Sec_Cloth_Cape5_03",
+   "J_Sec_Cloth_Cape5_04",
+   "J_Sec_Cloth_Cape5_05",
+   "J_Sec_Cloth_Cape5_06"
+  ],
+  "parent": "J_Bip_C_UpperChest"
+ },
+ "Cape6": {
+  "bones": [
+   "J_Sec_Cloth_Cape6_01",
+   "J_Sec_Cloth_Cape6_02",
+   "J_Sec_Cloth_Cape6_03",
+   "J_Sec_Cloth_Cape6_04",
+   "J_Sec_Cloth_Cape6_05",
+   "J_Sec_Cloth_Cape6_06"
+  ],
+  "parent": "J_Bip_C_UpperChest"
+ }
+}

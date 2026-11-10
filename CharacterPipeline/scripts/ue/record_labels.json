@@ -1,0 +1,126 @@
+{
+ "fps": 30.0,
+ "total": 59.60000013113022,
+ "labels": [
+  {
+   "name": "Attack_N1",
+   "start": 0.5,
+   "end": 1.333
+  },
+  {
+   "name": "Attack_N2",
+   "start": 2.033,
+   "end": 2.9
+  },
+  {
+   "name": "Attack_N3",
+   "start": 3.6,
+   "end": 4.667
+  },
+  {
+   "name": "Attack_N4",
+   "start": 5.367,
+   "end": 6.767
+  },
+  {
+   "name": "Charge_Start",
+   "start": 7.467,
+   "end": 7.867
+  },
+  {
+   "name": "Charge_Release",
+   "start": 8.567,
+   "end": 9.5
+  },
+  {
+   "name": "Skill_BloomField",
+   "start": 10.2,
+   "end": 11.467
+  },
+  {
+   "name": "Skill_Heal",
+   "start": 12.167,
+   "end": 13.5
+  },
+  {
+   "name": "Skill_Buff",
+   "start": 14.2,
+   "end": 15.233
+  },
+  {
+   "name": "Skill_Hold_Start",
+   "start": 15.933,
+   "end": 16.333
+  },
+  {
+   "name": "Skill_Hold_Release",
+   "start": 17.033,
+   "end": 18.1
+  },
+  {
+   "name": "Dodge_Back",
+   "start": 18.8,
+   "end": 19.4
+  },
+  {
+   "name": "Dodge_Forward",
+   "start": 20.1,
+   "end": 20.7
+  },
+  {
+   "name": "Dodge_Left",
+   "start": 21.4,
+   "end": 22.0
+  },
+  {
+   "name": "Dodge_Right",
+   "start": 22.7,
+   "end": 23.3
+  },
+  {
+   "name": "Dodge_Counter",
+   "start": 24.0,
+   "end": 24.667
+  },
+  {
+   "name": "Swap_In",
+   "start": 25.367,
+   "end": 26.367
+  },
+  {
+   "name": "Swap_Out",
+   "start": 27.067,
+   "end": 27.733
+  },
+  {
+   "name": "Plunge_Land",
+   "start": 28.433,
+   "end": 29.3
+  },
+  {
+   "name": "Mage_Fireball_R",
+   "start": 30.0,
+   "end": 31.6
+  },
+  {
+   "name": "Mage_Fireball_L",
+   "start": 32.3,
+   "end": 33.9
+  },
+  {
+   "name": "Mage_GroundSlam",
+   "start": 34.6,
+   "end": 37.55
+  },
+  {
+   "name": "Mage_Shout",
+   "start": 38.25,
+   "end": 40.933
+  },
+  {
+   "name": "Ultimate_EternalBloom",
+   "start": 41.633,
+   "end": 58.9
+  }
+ ]
+}

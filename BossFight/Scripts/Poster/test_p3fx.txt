@@ -1,0 +1,18 @@
+# Test sheet 3: burst slashes fired live (lead=) before each capture. Far off-map at y=30000.
+res 400 600
+warm 3
+gap 1.5
+boss hide=1
+hero hide=1
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=5000,30000,2100 scale=3 lead=0.08
+cam name=fx3_00_Holy_Slash_8 loc=5000,29300,2600 rot=-35,90,0 fov=70
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=6000,30000,2100 scale=3 lead=0.15
+cam name=fx3_01_Holy_Slash_15 loc=6000,29300,2600 rot=-35,90,0 fov=70
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=7000,30000,2100 scale=3 lead=0.25
+cam name=fx3_02_Holy_Slash_25 loc=7000,29300,2600 rot=-35,90,0 fov=70
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=8000,30000,2100 scale=3 lead=0.4
+cam name=fx3_03_Holy_Slash_40 loc=8000,29300,2600 rot=-35,90,0 fov=70
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Prestige_Slash loc=9000,30000,2100 scale=3 lead=0.15
+cam name=fx3_04_Prestige_Slash_15 loc=9000,29300,2600 rot=-35,90,0 fov=70
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Sakura_Slash loc=10000,30000,2100 scale=3 lead=0.15
+cam name=fx3_05_Sakura_Slash_15 loc=10000,29300,2600 rot=-35,90,0 fov=70

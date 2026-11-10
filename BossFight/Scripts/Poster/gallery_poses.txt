@@ -1,0 +1,90 @@
+# Pose gallery: Nova mesh per clip/time, one camera each (front 3/4).
+res 400 600
+warm 2
+gap 1.6
+boss hide=1
+hero hide=1
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=0.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/equip t=0.3
+light kind=point loc=-200.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_00_equip_30 loc=-330.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=300.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/equip t=0.55
+light kind=point loc=100.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_01_equip_55 loc=-30.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=600.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/equip t=0.8
+light kind=point loc=400.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_02_equip_80 loc=270.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=900.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/combo01_1 t=0.25
+light kind=point loc=700.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_03_c011_25 loc=570.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1200.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/combo01_2 t=0.25
+light kind=point loc=1000.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_04_c012_25 loc=870.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1500.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/combo01_3 t=0.35
+light kind=point loc=1300.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_05_c013_35 loc=1170.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1800.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/combo02_1 t=0.25
+light kind=point loc=1600.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_06_c021_25 loc=1470.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=2100.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/combo02_3 t=0.4
+light kind=point loc=1900.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_07_c023_40 loc=1770.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=2400.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/Upper_Swing t=0.3
+light kind=point loc=2200.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_08_upper_30 loc=2070.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=2700.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/Attack_air_slash t=0.3
+light kind=point loc=2500.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_09_airslash_30 loc=2370.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=3000.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/depence t=0.3
+light kind=point loc=2800.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_10_depence loc=2670.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=3300.0,30000.0,2000.0 yaw=200 anim=/Game/InsaneAirCombo/Animation/Idle t=0.5
+light kind=point loc=3100.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_11_Idle loc=2970.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=3600.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Telekinesis_Loop_IP t=0.5
+light kind=point loc=3400.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_12_tele_loop loc=3270.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=3900.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Beam_2h_Loop_IP t=0.5
+light kind=point loc=3700.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_13_beam2h loc=3570.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=4200.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Levitate_IP t=0.8
+light kind=point loc=4000.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_14_levitate loc=3870.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=4500.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Fireball_R_IP t=0.45
+light kind=point loc=4300.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_15_fireballR_45 loc=4170.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=4800.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Shout_IP t=0.6
+light kind=point loc=4600.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_16_shout_60 loc=4470.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=5100.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Jump_IP t=0.4
+light kind=point loc=4900.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_17_mage_jump_40 loc=4770.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=5400.0,30000.0,2000.0 yaw=200 anim=/Game/Lucy/Animations/Movement/Inplace/Lucy_Sprint_1_Inplace t=0.1
+light kind=point loc=5200.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_18_sprint_10 loc=5070.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=5700.0,30000.0,2000.0 yaw=200 anim=/Game/Lucy/Animations/Movement/Inplace/Lucy_Sprint_1_Inplace t=0.3
+light kind=point loc=5500.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_19_sprint_30 loc=5370.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=6000.0,30000.0,2000.0 yaw=200 anim=/Game/Lucy/Animations/Movement/Inplace/Lucy_Run_F_Inplace t=0.2
+light kind=point loc=5800.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_20_runF_20 loc=5670.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=6300.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Sprint_IP t=0.2
+light kind=point loc=6100.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_21_mage_sprint loc=5970.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=6600.0,30000.0,2000.0 yaw=200 anim=/Game/Lucy/Animations/Battle/Lucy_Rest t=0.5
+light kind=point loc=6400.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_22_lucy_rest loc=6270.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=6900.0,30000.0,2000.0 yaw=200 anim=/Game/Lucy/Animations/Battle/Lucy_Idle_Pose t=0.2
+light kind=point loc=6700.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_23_lucy_idlepose loc=6570.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=7200.0,30000.0,2000.0 yaw=200 anim=/Game/Lucy/Animations/Battle/Lucy_Fight_Idle_Pose t=0.2
+light kind=point loc=7000.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_24_fight_idle loc=6870.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=7500.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Idle_IP t=1.5
+light kind=point loc=7300.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_25_mage_idle loc=7170.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=7800.0,30000.0,2000.0 yaw=200 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_EnterCombat_IP t=0.6
+light kind=point loc=7600.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_26_entercombat loc=7470.0,29880.0,2095.0 rot=-3,20,0 fov=50
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=8100.0,30000.0,2000.0 yaw=200 anim=/Game/Lucy/Animations/Dodge/Inplace/Lucy_Slide_F_Inplace t=0.25
+light kind=point loc=7900.0,29900.0,2250.0 intensity=60 radius=700
+cam name=gal_27_slideF loc=7770.0,29880.0,2095.0 rot=-3,20,0 fov=50

@@ -1,0 +1,40 @@
+# Poster 3: the three girls charge toward the viewer, the horned boss looms behind them (L_Cinematic, night temple ruins). Portrait 2:3.
+# Camera looks +Y from the pond, so screen left = +X, screen right = -X; yaw -90 faces the camera. Pillar_2 (0,1700) sits behind the boss.
+# The girls stand on the pond's water surface (z 58) for the reflections.
+res 2160 3240
+warm 4
+gap 2
+hide match=RuneCircle
+hide match=RuneLight
+hide match=Env_Reeds
+cmd r.DepthOfFieldQuality 0
+
+# Boss looms behind, hammer up, no aura shell (the shell renders as a flat green ghost in stills).
+boss loc=0,1050,20 yaw=-90 scale=2.7 aura=0 anim=/Game/ParagonSevarog/Characters/Heroes/Sevarog/Animations/Ultimate_Swing_120fps t=0.2
+
+# Heroine front centre, leaping at the camera (combo01_3 turns her body ~80 deg, so yaw -10 faces her to camera).
+hero loc=0,600,58 yaw=-10 anim=/Game/InsaneAirCombo/Animation/combo01_3 t=0.15
+# Nova mid-air on the left, casting.
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=150,760,190 yaw=-70 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Jump_IP t=0.4
+# Char2 dashing low on the right, toward camera-right.
+rig mesh=/Game/Model/model1/ACCchar/autorigCharTpose abp=/Game/BossFight/Poster/ABP_Char2_Poster scale=0.068 loc=-110,600,58 yaw=-125 anim=/Game/Lucy/Animations/Movement/Inplace/Lucy_Sprint_1_Inplace t=0.3
+
+# Lights: warm key on the girls from the camera side, green rim behind the boss, violet at Nova's hands.
+light kind=point loc=100,350,250 color=1,0.85,0.65 intensity=20 radius=800
+light kind=point loc=0,700,500 color=0.5,1,0.6 intensity=25 radius=700
+light kind=point loc=0,1350,450 color=0.25,1,0.45 intensity=120 radius=1200
+light kind=point loc=0,850,150 color=0.25,1,0.45 intensity=25 radius=500
+light kind=point loc=220,650,330 color=0.7,0.45,1 intensity=3 radius=300
+
+# Effects (age freezes them mid-life).
+fx path=/Game/MagicKit/Particles/NightFlame/NS_NightFlame_Special_01 loc=0,950,20 scale=0.8 age=1.0
+fx path=/Game/BalticVFX_MagicCirclesToolkit/Particles/NS_CircleExample2 loc=210,700,300 rot=0,0,90 scale=1.0 age=1.5 color1=Color_1:2,0.5,6 color2=Color_2:0.4,3,5
+fx path=/Game/BalticVFX_MagicCirclesToolkit/Particles/NS_CircleExample1 loc=90,720,330 rot=0,0,90 scale=0.9 age=1.5 color1=Color_1:0.4,3,5 color2=Color_2:2,0.5,6
+# Burst slashes do not survive a frozen age: lead= fires them live just before each capture. They lie flat (XY plane).
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=0,620,120 rot=30,0,-20 scale=2.0 lead=0.1
+
+# Char2's blue dash trail at her feet: game sword-trail ribbon swept from behind her to her feet right before the capture.
+trail path=/Game/SlashHitVFX/NS/NS_Trail_Sword from=90,760,85 to=-100,628,85 lead=0.3 width=60 float=LightOn:1 color1=ColorHead:1,3.5,14 color2=ColorTail:0.3,1.2,10
+trail path=/Game/SlashHitVFX/NS/NS_Trail_Sword from=40,740,135 to=-75,650,120 lead=0.3 width=35 float=LightOn:1 color1=ColorHead:1.2,4,14 color2=ColorTail:0.3,1.4,10
+
+cam name=p3_final loc=0,250,120 rot=12,90,0 fov=50

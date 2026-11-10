@@ -1,0 +1,12 @@
+# Pose / scale / facing check: the three girls side by side on L_Cinematic, front and side views.
+res 720 1080
+warm 3
+gap 2
+boss hide=1
+hero loc=1350,-1050,20 yaw=180 anim=/Game/InsaneAirCombo/Animation/Idle t=0.5
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1350,-1170,20 yaw=180 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Idle_IP t=0.5
+rig mesh=/Game/Model/model1/ACCchar/autorigCharTpose abp=/Game/BossFight/Poster/ABP_Char2_Poster scale=0.068 loc=1350,-930,20 yaw=180 anim=/Game/Lucy/Animations/Battle/Lucy_Idle_Pose t=0.2
+light kind=point loc=950,-1050,220 color=1,0.95,0.9 intensity=80 radius=1500
+cam name=lineup_front loc=750,-1110,120 rot=-2,0,0 fov=45
+cam name=lineup_side loc=1350,-1550,120 rot=-2,90,0 fov=40
+rig mesh=/Game/CharCustom/Tes/TesFix/Proj1FixBackUP abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1350,-1290,20 yaw=180 anim=/Game/MageAnimationSet/Animations/InPlace/Mage_Idle_IP t=0.5

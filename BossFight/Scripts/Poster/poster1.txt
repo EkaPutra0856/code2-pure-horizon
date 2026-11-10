@@ -1,0 +1,26 @@
+# Poster 1: the trio on the lake shore at golden hour, the lake tower and aqueduct behind (Dreamscape DemoMap). Portrait 2:3.
+# Run with map /Game/DreamscapeSeries/DreamscapeTower/Maps/DemoMap?game=/Script/BossFight.BFGameMode. Camera looks yaw 30 toward the tower;
+# the girls face back at it (yaw 210). snap=1 drops each one onto the ground.
+res 2160 3240
+warm 4
+gap 2
+boss hide=1
+cmd r.DepthOfFieldQuality 0
+# Golden hour: low sun behind the tower, sky sphere recoloured from it, warm fog and grade.
+sun rot=-6,210,0 color=1,0.6,0.32
+call match=BP_Sky_Sphere fn=RefreshMaterial
+fog color=0.45,0.35,0.5 dircolor=1,0.5,0.22 density=0.01
+grade temp=7600 gain=1.04,0.96,0.88 sat=1.15 contrast=1.08 bloom=1.0 vignette=0.55
+# Foreground flowers between the camera and the girls.
+clear loc=40177,36100,-11550 radius=300
+hero loc=40350,36200,-10000 snap=1 yaw=210 anim=/Game/InsaneAirCombo/Animation/equip t=0.55 look=18
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=40437,36129,-10000 snap=1 yaw=228 anim=/Game/Lucy/Animations/Battle/Lucy_Fight_Idle_Pose t=0.2
+rig mesh=/Game/Model/model1/ACCchar/autorigCharTpose abp=/Game/BossFight/Poster/ABP_Char2_Poster scale=0.068 loc=40332,36311,-10000 snap=1 yaw=192 anim=/Game/Lucy/Animations/Battle/Lucy_Rest t=0.5
+light kind=point loc=40173,36006,-10200 snap=1 lift=200 color=1,0.82,0.65 intensity=25 radius=900
+clear loc=40073,36040,-11500 radius=180
+# Floating islands in the sky, left and right of the tower.
+mesh path=/Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/SM_FloatingIsland loc=56529,39537,-6180 rot=0,40,0 scale=1.0
+mesh path=/Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/SM_FloatingIsland loc=53061,49543,-5180 rot=0,200,0 scale=0.8
+mesh path=/Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/SM_FloatingIsland loc=53963,41981,-3780 rot=0,120,0 scale=0.4
+mesh path=/Game/DreamscapeSeries/DreamscapeTower/Meshes/Stones/SM_FloatingIsland loc=56594,47426,-2580 rot=0,300,0 scale=0.3
+cam name=p1_final loc=40073,36040,-10000 snap=1 lift=150 rot=-3,30,0 fov=48

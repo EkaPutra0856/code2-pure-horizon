@@ -1,0 +1,12 @@
+# Scouting a Dreamscape map for poster 1: top-down and wide views.
+res 720 720
+warm 3
+gap 1.5
+boss hide=1
+hero hide=1
+cam name=dtS_top loc=0,0,8000 rot=-90,0,0 fov=90
+cam name=dtS_top_far loc=0,0,25000 rot=-90,0,0 fov=90
+cam name=dtS_e loc=-6000,0,2500 rot=-15,0,0 fov=80
+cam name=dtS_w loc=6000,0,2500 rot=-15,180,0 fov=80
+cam name=dtS_n loc=0,-6000,2500 rot=-15,90,0 fov=80
+cam name=dtS_s loc=0,6000,2500 rot=-15,-90,0 fov=80

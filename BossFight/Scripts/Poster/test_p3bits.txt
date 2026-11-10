@@ -1,0 +1,56 @@
+# Test sheet: heroine attack poses (on Nova stand-ins) and slash FX orientation/age. Far off-map at y=30000.
+res 400 600
+warm 3
+gap 1.5
+boss hide=1
+hero hide=1
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=0,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/run_fast t=0.3
+light kind=point loc=0,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_00_run_fast_30 loc=0,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=300,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/run_fast t=0.6
+light kind=point loc=300,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_01_run_fast_60 loc=300,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=600,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/Pierce_Air t=0.3
+light kind=point loc=600,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_02_Pierce_Air_30 loc=600,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=900,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/Upper_Swing t=0.25
+light kind=point loc=900,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_03_Upper_Swing_25 loc=900,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1200,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/Attack_Shockwave t=0.3
+light kind=point loc=1200,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_04_Attack_Shockwave_30 loc=1200,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1500,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/combo02_2 t=0.3
+light kind=point loc=1500,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_05_combo02_2_30 loc=1500,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=1800,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/Air_Dash_Attack t=0.3
+light kind=point loc=1800,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_06_Air_Dash_Attack_30 loc=1800,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=2100,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/strafe_run_F t=0.3
+light kind=point loc=2100,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_07_strafe_run_F_30 loc=2100,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=2400,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/combo01_3 t=0.15
+light kind=point loc=2400,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_08_combo01_3_15 loc=2400,29550,2090 rot=0,90,0 fov=25
+rig mesh=/Game/CharCustom/Tes/Proj1Rev abp=/Game/BossFight/Poster/ABP_Nova_Poster loc=2700,30000,2000 yaw=-90 anim=/Game/InsaneAirCombo/Animation/combo02 t=0.4
+light kind=point loc=2700,29700,2200 color=1,1,1 intensity=40 radius=700
+cam name=hp_09_combo02_40 loc=2700,29550,2090 rot=0,90,0 fov=25
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=5000,30000,2100 rot=0,0,0 scale=1 age=0.15
+cam name=fx_00_Holy_Slash_0_0_0_15 loc=5000,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=5600,30000,2100 rot=0,90,0 scale=1 age=0.15
+cam name=fx_01_Holy_Slash_0_90_0_15 loc=5600,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=6200,30000,2100 rot=90,0,0 scale=1 age=0.15
+cam name=fx_02_Holy_Slash_90_0_0_15 loc=6200,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=6800,30000,2100 rot=0,0,90 scale=1 age=0.15
+cam name=fx_03_Holy_Slash_0_0_90_15 loc=6800,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Holy_Slash loc=7400,30000,2100 rot=0,90,0 scale=1 age=0.3
+cam name=fx_04_Holy_Slash_0_90_0_30 loc=7400,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Prestige_Slash loc=8000,30000,2100 rot=0,90,0 scale=1 age=0.2
+cam name=fx_05_Prestige_Slash_0_90_0_20 loc=8000,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Sakura_Slash loc=8600,30000,2100 rot=0,90,0 scale=1 age=0.2
+cam name=fx_06_Sakura_Slash_0_90_0_20 loc=8600,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/Hack_And_Slash_FX/VFX_Niagara/Slashes/NS_Fire_Slash loc=9200,30000,2100 rot=0,90,0 scale=1 age=0.2
+cam name=fx_07_Fire_Slash_0_90_0_20 loc=9200,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/BalticVFX_MagicCirclesToolkit/Particles/NS_CircleExample1 loc=10000,30000,2100 rot=0,0,90 scale=0.5 age=1.5
+cam name=fx_circle1 loc=10000,29400,2100 rot=0,90,0 fov=60
+fx path=/Game/BalticVFX_MagicCirclesToolkit/Particles/NS_CircleExample2 loc=10600,30000,2100 rot=0,0,90 scale=0.5 age=1.5
+cam name=fx_circle2 loc=10600,29400,2100 rot=0,90,0 fov=60

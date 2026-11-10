@@ -1,0 +1,12 @@
+# Scouting Dreamscape DemoMap (the level sits around x 10000..75000, y 12000..57000, z -12000): top view and views from the player start.
+res 720 720
+warm 3
+gap 1.5
+boss hide=1
+hero hide=1
+cam name=d2_top loc=42000,36000,30000 rot=-90,0,0 fov=90
+cam name=d2_ps_y17 loc=26757,35631,-11200 rot=-3,17,0 fov=80
+cam name=d2_ps_y90 loc=26757,35631,-11200 rot=-3,90,0 fov=80
+cam name=d2_ps_y180 loc=26757,35631,-11200 rot=-3,180,0 fov=80
+cam name=d2_ps_y270 loc=26757,35631,-11200 rot=-3,270,0 fov=80
+cam name=d2_high loc=15000,25000,-3000 rot=-15,35,0 fov=80

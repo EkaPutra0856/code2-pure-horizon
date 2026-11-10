@@ -1,0 +1,12 @@
+# Scouting Dreamscape DemoMap: the high plateau near (8700,19300) looking toward the lake tower (52300,43580).
+res 720 720
+warm 3
+gap 1.5
+boss hide=1
+hero hide=1
+cam name=d3_plat_top loc=9000,19000,8000 rot=-90,0,0 fov=70
+cam name=d3_vista loc=8700,19300,-1500 rot=-8,28,0 fov=60
+cam name=d3_vista_hi loc=8700,19300,1500 rot=-12,28,0 fov=60
+cam name=d3_back loc=14000,24000,0 rot=-25,-150,0 fov=70
+cam name=d3_mid loc=30000,30000,-6000 rot=-10,40,0 fov=70
+cam name=d3_low_lake loc=40000,36000,-10500 rot=-3,30,0 fov=70

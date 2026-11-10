@@ -1,0 +1,11 @@
+# Layout scouting of L_Cinematic: top-down and wide views.
+res 1080 1080
+warm 2
+boss hide=1
+hero hide=1
+cam name=ov_top loc=0,0,9000 rot=-90,0,0 fov=60
+cam name=ov_top_far loc=0,0,20000 rot=-90,0,0 fov=60
+cam name=ov_e loc=-4000,0,1500 rot=-18,0,0 fov=70
+cam name=ov_w loc=4000,0,1500 rot=-18,180,0 fov=70
+cam name=ov_n loc=0,-4000,1500 rot=-18,90,0 fov=70
+cam name=ov_s loc=0,4000,1500 rot=-18,-90,0 fov=70

@@ -1,0 +1,38 @@
+# Unreal Engine generated folders
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+.vs/
+.vscode/
+.idea/
+
+# Third-party and binary content (not redistributed)
+Content/
+*.uasset
+*.umap
+*.fbx
+*.glb
+*.vrm
+*.vroid
+*.blend
+*.blend1
+
+# IDE / build artefacts
+*.sln
+*.suo
+*.sdf
+*.VC.db
+*.opensdf
+*.opendb
+*.pdb
+*.dll
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs and reports
+*.log
